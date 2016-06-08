@@ -22,13 +22,11 @@ OK, here we go.
 
 # Photoreception in Ambulacraria
 
-## Introduction and Goals
+## Abstract
 
-The goal of my project is to answer the question, What is...?
+The goal of my project is to practise the basic contents explored during this MAMED course. For doing so, I will first used the regular expressions search and replace methods. Further, I will benefit of usen markdown to format my text file and include images and references.
 
-The methods I will use to do this are...
-
-The data I will use are (my own data/ data publicly available at YYY/ simulations)
+More in concrete, I will first rename the name of the sequences that I will use. These data are contained in {DAniello:2015gm}.
 
 ## Methods
 
