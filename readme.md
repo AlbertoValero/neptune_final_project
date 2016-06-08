@@ -20,19 +20,21 @@ Some guidelines and tips:
 
 OK, here we go.
 
-# Photoreception in Ambulacraria
+# Diel-Vertical migration of marine zooplankton
 
 ## Abstract
 
-The main goal of this project is to apply the basic contents explored during this MAMED course held at Villefranche-sur-Mer. For doing so, I will first used the regular expressions search and replace methods. Further, I will benefit of markdown to format my text file and include images and references.
+The main goal of this project is to apply the basic contents explored during this MAMED course held at Villefranche-sur-Mer. 
 
-This project used protein sequences and, if times permit, I would like to explore the different ways of visualization of the opsin phylogeny that we constructed for helping the reader to have a better interation with our published opsin phylogeny in an iteractive way. 
+For doing so, I will try to adapt some scripts previously develop in MatLab for controling a custom-built set-up created in collaboration with Dan-Eric Nilsson (Vision Group, Lund University), that allows to analize the density of marine invertebrate larvae in the water column during time, at different light conditions. 
 
-More in concrete, I will first rename the name of the sequences that I will use. These data are contained in {DAniello:2015gm}.
+Once I am able to make my binary data into a text file, I will use this data in tsv for creating a Multi-Series Line Chart extracted from bl.ocks.org. Further, I will benefit of markdown to format my text file and include images and references.
 
-XXXXX
 
-## 'Improving the visualization of phylogenetic trees by means of '
+## 'What is diel-vertical migration'
+
+Diel vertical migration is the...
+
 ## Methods
 
 The tools I used were... See analysis files at (links to analysis files).
