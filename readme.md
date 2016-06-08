@@ -24,7 +24,9 @@ OK, here we go.
 
 ## Abstract
 
-The goal of my project is to practise the basic contents explored during this MAMED course. For doing so, I will first used the regular expressions search and replace methods. Further, I will benefit of usen markdown to format my text file and include images and references.
+The main goal of this project is to apply the basic contents explored during this MAMED course held at Villefranche-sur-Mer. For doing so, I will first used the regular expressions search and replace methods. Further, I will benefit of markdown to format my text file and include images and references.
+
+This project used protein sequences and, if times permit, I would like to explore the different ways of visualization of the opsin phylogeny that we constructed for helping the reader to have a better interation with our published opsin phylogeny in an iteractive way. 
 
 More in concrete, I will first rename the name of the sequences that I will use. These data are contained in {DAniello:2015gm}.
 
