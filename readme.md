@@ -24,11 +24,11 @@ OK, here we go.
 
 ## Abstract
 
-The main goal of this project is to apply the basic contents explored during this MAMED course held at Villefranche-sur-Mer. 
+The main goal of this project is to apply the contents explored during this MAMED course held at Villefranche-sur-Mer. 
 
-For doing so, I will try to adapt some scripts previously develop in MatLab for controling a custom-built set-up created in collaboration with Dan-Eric Nilsson (Vision Group, Lund University), that allows to analize the density of marine invertebrate larvae in the water column during time, at different light conditions. 
+More in concrete, I will try to adapt some scripts previously develop in MatLab for controling a custom-built set-up created in collaboration with Dan-Eric Nilsson (Vision Group, Lund University), that allows to analize the density of marine invertebrate larvae in the water column during time at different light conditions. 
 
-Once I am able to convert my binary data into a text file, I will use this data in tsv for creating a Multi-Series Line Chart extracted from bl.ocks.org. Further, I will benefit of markdown to format my text file and include images and references.
+Once I am able to convert my data into a .tsv file I wll create a Multi-Series Line Chart extracted from bl.ocks.org. Further, I will benefit of markdown to format my text file and include images and references.
 
 https://github.com/AlbertoValero/neptune_final_project/blob/master/no-light_Distr_Time_Corect.png?raw=true
 
