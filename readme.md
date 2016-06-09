@@ -26,11 +26,11 @@ OK, here we go.
 
 The main goal of this project is to apply the contents explored during this MAMED course held at Villefranche-sur-Mer. 
 
-More in concrete, I will try to adapt some scripts previously develop in MatLab for controling a custom-built set-up created in collaboration with Dan-Eric Nilsson (Vision Group, Lund University), that allows to analize the density of marine invertebrate larvae in the water column during time at different light conditions. 
+More in concrete, I will try to adapt some scripts previously develop in MatLab for controling a custom-built set-up. This machine is being created in collaboration with Dan-Eric Nilsson (Vision Group, Lund University), and allows to analize the density of the population of marine invertebrate larvae in ta 40cm water column during time at different light conditions. 
 
 Once I am able to convert my data into a .tsv file I wll create a Multi-Series Line Chart extracted from bl.ocks.org. Further, I will benefit of markdown to format my text file and include images and references.
 
-https://github.com/AlbertoValero/neptune_final_project/blob/master/no-light_Distr_Time_Corect.png?raw=true
+![Figure 1] (https://github.com/AlbertoValero/neptune_final_project/blob/master/no-light_Distr_Time_Corect.png?raw=true)
 
 ## 'What is diel-vertical migration'
 
