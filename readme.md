@@ -26,13 +26,19 @@ OK, here we go.
 
 The main goal of this project is to apply the contents explored during this MAMED course held at Villefranche-sur-Mer. 
 
-More in concrete, I will try to adapt some scripts previously develop in MatLab for controling a custom-built set-up. This machine is being created in collaboration with Dan-Eric Nilsson (Vision Group, Lund University), and allows to analize the density of the population of marine invertebrate larvae in a 400X10X10mm water column during time under different light conditions. 
+More in concrete, I will try to adapt some scripts previously develop in D3js.org for tracing the diel-vertical migration of marine zooplaktonic larvae in a custom-built set-up. This set-up is being created in collaboration with Dan-Eric Nilsson (Vision Group, Lund University), and allows to analize the density of the population of marine invertebrate larvae in a 400X10X10mm water column during time under different light conditions. 
 
-Once I am able to convert my data into a .tsv file I wll create a Multi-Series Line Chart extracted from bl.ocks.org. Further, I will benefit of markdown to format my text file and include images and references.
+Once I am able to convert my data into a .tsv file I will create a Multi-Series Line Chart extracted from bl.ocks.org. Further, I will benefit of markdown to format my text file and include images and references.
+
+## Photoreception classes
+
+While the vast majority of studies had been focus on directional photoreceptors – systems comprising at least one cell with a photosensitive opsin and shading pigments that enable it to discriminate light directionality – less is known about non-directional photoreception, which is considered the earliest evolving type of photoreception. 
+
+Non-directional photoreceptors, which can be difficult to detect without molecular tools, allow to monitor the ambient light intensity. They are widely used as an input to the circadian clock system and also for a wide variety of other tasks. For instance, non-directional photoreceptors can be used for detecting shadows or harmful levels of UV radiation or be involved in the regulation of feeding, movement and reproduction rhythms (Bennett, 1979; Paul and Gwynn-Jones, 2003; Leech et al., 2005; Nilsson, 2009; 2013).
+
+In my work I try to better-understand the non-directional photoreceptors of the echinopluteus larvae of the sea urchin *Strongylocentrotus purpuratus*.
 
 ![Figure 1] (https://github.com/AlbertoValero/neptune_final_project/blob/master/Screen%20Shot%202016-03-03%20at%2017.23.09.png)
-
-![Figure 2] (https://github.com/AlbertoValero/neptune_final_project/blob/master/no-light_Distr_Time_Corect.png?raw=true)
 
 ## 'What is diel-vertical migration'
 
@@ -45,6 +51,8 @@ In the present work
 The tools I used were... See analysis files at (links to analysis files).
 
 ## Results
+
+![Figure 2] (https://github.com/AlbertoValero/neptune_final_project/blob/master/no-light_Distr_Time_Corect.png?raw=true)
 
 ![Figure 1](./Figure1.png?raw=true)
 
