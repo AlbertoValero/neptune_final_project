@@ -56,7 +56,7 @@ The tools I used were... See analysis files at (links to analysis files).
 
 ## Results
 
-![Figure 2] (https://github.com/AlbertoValero/neptune_final_project/blob/master/Screen%20Shot%202016-06-09%20at%2012.37.33.png)
+![Figure 2] (Screen%20Shot%202016-06-09%20at%2012.37.33.png)
 
 In Figure 1 you can compare the occurence of these zooplanktonic larvae during time.
 
