@@ -26,15 +26,19 @@ OK, here we go.
 
 The main goal of this project is to apply the contents explored during this MAMED course held at Villefranche-sur-Mer. 
 
-More in concrete, I will try to adapt some scripts previously develop in MatLab for controling a custom-built set-up. This machine is being created in collaboration with Dan-Eric Nilsson (Vision Group, Lund University), and allows to analize the density of the population of marine invertebrate larvae in ta 40cm water column during time at different light conditions. 
+More in concrete, I will try to adapt some scripts previously develop in MatLab for controling a custom-built set-up. This machine is being created in collaboration with Dan-Eric Nilsson (Vision Group, Lund University), and allows to analize the density of the population of marine invertebrate larvae in a 400X10X10mm water column during time under different light conditions. 
 
 Once I am able to convert my data into a .tsv file I wll create a Multi-Series Line Chart extracted from bl.ocks.org. Further, I will benefit of markdown to format my text file and include images and references.
 
-![Figure 1] (https://github.com/AlbertoValero/neptune_final_project/blob/master/no-light_Distr_Time_Corect.png?raw=true)
+![Figure 1] (https://github.com/AlbertoValero/neptune_final_project/blob/master/Screen%20Shot%202016-03-03%20at%2017.23.09.png)
+
+![Figure 2] (https://github.com/AlbertoValero/neptune_final_project/blob/master/no-light_Distr_Time_Corect.png?raw=true)
 
 ## 'What is diel-vertical migration'
 
-Diel vertical migration is the...
+Every day, zooplankton make their way to deep water and rise. This process, known as diel vertical migration, is carried out all over the world by marine and freshwater plankton alike. The reason for this has long been attributed to the trade-off between obtaining tasty morsels in the surface ocean and avoiding becoming a tasty morsel for predators while they're there.
+
+In the present work
 
 ## Methods
 
