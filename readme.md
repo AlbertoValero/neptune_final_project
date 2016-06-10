@@ -12,7 +12,9 @@ More in concrete, I will try to adapt a JavaScripts visualization program previo
 
 This set-up is being created in collaboration with Dan-Eric Nilsson (Vision Group, Lund University), and allows to analize the movements of a population of marine invertebrate larvae located in a 400X10X10mm water column during time. For this first assay, the light coming from the surface will be UV. The light cycle will be 12/12h (UV/Dark conditions) and changes in light intensity will be done by means of a gaussian function. Future hardware implementations will allow to change the different light conditions available in the set-up.
 
-![Figure 2] (https://github.com/AlbertoValero/neptune_final_project/blob/master/Poster%20sep2015.jpg)
+![Figure 1] (https://github.com/AlbertoValero/neptune_final_project/blob/master/Poster%20sep2015.jpg)
+
+_**Figure 1.** A custom made behavioural set-up created in the Vision Group (Lund University; Sweden)_
 
 Once I am able to convert my data into a .tsv file I will create a Multi-Series Line Chart extracted from bl.ocks.org. Further, I will benefit of markdown to format my text file and include images and references. If time permits, I will try to add the spectral properties that I measure of each of the LEDs associated to this system. In the future, the movements of the larvae will be plotted in a dinamic time-lapse sequence like the one that you can find in: https://fbe94b5b83362330a8429bb16098a3285147bcbf.googledrive.com/host/0Bz6WHrWac3FrZUtuOExWdlRGVG8/sportskills.html.
 
@@ -24,16 +26,13 @@ Non-directional photoreceptors, which can be difficult to detect without molecul
 
 ![Figure 2] (https://github.com/AlbertoValero/neptune_final_project/blob/master/Screen%20Shot%202016-03-03%20at%2017.23.09.png)
 
-_**Figure 1.** Different photoreception classes defined by Nilsson (2009) and visual task associated with each of them._
+_**Figure 2.** Different photoreception classes defined by Nilsson (2009) and visual task associated with each of them._
 
 ## Importance of Marine Zooplankton for understanding the Origin of Vision
 
 To elucidate the origins of animal vision, an event that most probably happened in the Precambrian, a better understanding of the mechanisms of non-directional photoreception is required. While ancestral adult metazoans were likely benthic, it is probable that a pelagic larval stage evolved very early on in animal evolution (Nielsen, 2008). This idea had led to investigate the directional simple eyespots of marine ciliated larvae in search of something resembling a ‘proto-eye’ (Smith, 1935; Thorson, 1964; Brandenburger et al., 1973; Marsden, 1984; Pires and Woollacott, 1997; Leys and Degnan, 2001; Nordström et al., 2003; Jékely et al., 2008; Gühmann et al., 2015). Such simple eyespots or ocelli constitute class II photoreceptors in accordance with the classification of Nilsson (2013). However, to our knowledge, in only a few cases have non-directional (class I) photoreceptors been documented (Arendt et al., 2004; Passamaneck et al., 2011; Voecking et al., 2015).
 
-The current study represents the first attempt to identify unpigmented photoreceptor cells in a zooplanktonic larva of the deuterostome lineage. Here we describe the spatiotemporal expression of the opsins SpOp3.2 (Go) and SpOp4 (rhabdomeric) in the pluteus larvae of *Strongylocentrotus purpuratus*.
-
-In my work I try to better-understand and compare the phototactic behaviour of the echinopluteus of *Strongylocentrotus purpuratus* (Echinoidea), the auricularia of *Luidia sarsi* (Asteroidea), and the tornaria of Schizocardium spp (Hemichordata).
-
+The current study represents the first attempt to identify unpigmented photoreceptor cells in a zooplanktonic larva of the deuterostome lineage. In my work I try to better-understand and compare the phototactic behaviour of the echinopluteus of *Strongylocentrotus purpuratus* (Echinoidea), the auricularia of *Luidia sarsi* (Asteroidea), and the tornaria of Schizocardium spp (Hemichordata).
 
 ## What diel-vertical migration is
 
@@ -45,128 +44,128 @@ This is the native code used for generating Fig. 3
 
 	index.html#
 
-<!DOCTYPE html>
-<meta charset="utf-8">
-<style>
+	<!DOCTYPE html>
+	<meta charset="utf-8">
+	<style>
 
-body {
-  font: 10px sans-serif;
-}
+	body {
+	  font: 10px sans-serif;
+	}
 
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
+	.axis path,
+	.axis line {
+	  fill: none;
+	  stroke: #000;
+	  shape-rendering: crispEdges;
+	}
 
-.x.axis path {
-  display: none;
-}
+	.x.axis path {
+	  display: none;
+	}
 
-.line {
-  fill: none;
-  stroke: steelblue;
-  stroke-width: 1.5px;
-}
+	.line {
+	  fill: none;
+	  stroke: steelblue;
+	  stroke-width: 1.5px;
+	}
 
-</style>
-<body>
-<script src="//d3js.org/d3.v3.min.js"></script>
-<script>
+	</style>
+	<body>
+	<script src="//d3js.org/d3.v3.min.js"></script>
+	<script>
 
-var margin = {top: 20, right: 80, bottom: 30, left: 50},
-    width = 960 - margin.left - margin.right,
-    height = 500 - margin.top - margin.bottom;
+	var margin = {top: 20, right: 80, bottom: 30, left: 50},
+	    width = 960 - margin.left - margin.right,
+	    height = 500 - margin.top - margin.bottom;
 
-var parseDate = d3.time.format("%Y%m%d").parse;
+	var parseDate = d3.time.format("%Y%m%d").parse;
 
-var x = d3.time.scale()
-    .range([0, width]);
+	var x = d3.time.scale()
+	    .range([0, width]);
 
-var y = d3.scale.linear()
-    .range([height, 0]);
+	var y = d3.scale.linear()
+	    .range([height, 0]);
 
-var color = d3.scale.category10();
+	var color = d3.scale.category10();
 
-var xAxis = d3.svg.axis()
-    .scale(x)
-    .orient("bottom");
+	var xAxis = d3.svg.axis()
+	    .scale(x)
+	    .orient("bottom");
 
-var yAxis = d3.svg.axis()
-    .scale(y)
-    .orient("left");
+	var yAxis = d3.svg.axis()
+	    .scale(y)
+	    .orient("left");
 
-var line = d3.svg.line()
-    .interpolate("basis")
-    .x(function(d) { return x(d.date); })
-    .y(function(d) { return y(d.temperature); });
+	var line = d3.svg.line()
+	    .interpolate("basis")
+	    .x(function(d) { return x(d.date); })
+	    .y(function(d) { return y(d.temperature); });
 
-var svg = d3.select("body").append("svg")
-    .attr("width", width + margin.left + margin.right)
-    .attr("height", height + margin.top + margin.bottom)
-  .append("g")
-    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+	var svg = d3.select("body").append("svg")
+	    .attr("width", width + margin.left + margin.right)
+	    .attr("height", height + margin.top + margin.bottom)
+	  .append("g")
+	    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
 
-d3.tsv("data.tsv", function(error, data) {
-  if (error) throw error;
+	d3.tsv("data.tsv", function(error, data) {
+	  if (error) throw error;
 
-  color.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
+	  color.domain(d3.keys(data[0]).filter(function(key) { return key !== "date"; }));
 
-  data.forEach(function(d) {
-    d.date = parseDate(d.date);
-  });
+	  data.forEach(function(d) {
+	    d.date = parseDate(d.date);
+	  });
 
-  var cities = color.domain().map(function(name) {
-    return {
-      name: name,
-      values: data.map(function(d) {
-        return {date: d.date, temperature: +d[name]};
-      })
-    };
-  });
+	  var cities = color.domain().map(function(name) {
+	    return {
+	      name: name,
+	      values: data.map(function(d) {
+	        return {date: d.date, temperature: +d[name]};
+	      })
+	    };
+	  });
 
-  x.domain(d3.extent(data, function(d) { return d.date; }));
+	  x.domain(d3.extent(data, function(d) { return d.date; }));
 
-  y.domain([
-    d3.min(cities, function(c) { return d3.min(c.values, function(v) { return v.temperature; }); }),
-    d3.max(cities, function(c) { return d3.max(c.values, function(v) { return v.temperature; }); })
-  ]);
+	  y.domain([
+	    d3.min(cities, function(c) { return d3.min(c.values, function(v) { return v.temperature; }); }),
+	    d3.max(cities, function(c) { return d3.max(c.values, function(v) { return v.temperature; }); })
+	  ]);
 
-  svg.append("g")
-      .attr("class", "x axis")
-      .attr("transform", "translate(0," + height + ")")
-      .call(xAxis);
+	  svg.append("g")
+	      .attr("class", "x axis")
+	      .attr("transform", "translate(0," + height + ")")
+	      .call(xAxis);
 
-  svg.append("g")
-      .attr("class", "y axis")
-      .call(yAxis)
-    .append("text")
-      .attr("transform", "rotate(-90)")
-      .attr("y", 6)
-      .attr("dy", ".71em")
-      .style("text-anchor", "end")
-      .text("Temperature (ºF)");
+	  svg.append("g")
+	      .attr("class", "y axis")
+	      .call(yAxis)
+	    .append("text")
+	      .attr("transform", "rotate(-90)")
+	      .attr("y", 6)
+	      .attr("dy", ".71em")
+	      .style("text-anchor", "end")
+	      .text("Temperature (ºF)");
 
-  var city = svg.selectAll(".city")
-      .data(cities)
-    .enter().append("g")
-      .attr("class", "city");
+	  var city = svg.selectAll(".city")
+	      .data(cities)
+	    .enter().append("g")
+	      .attr("class", "city");
 
-  city.append("path")
-      .attr("class", "line")
-      .attr("d", function(d) { return line(d.values); })
-      .style("stroke", function(d) { return color(d.name); });
+	  city.append("path")
+	      .attr("class", "line")
+	      .attr("d", function(d) { return line(d.values); })
+	      .style("stroke", function(d) { return color(d.name); });
 
-  city.append("text")
-      .datum(function(d) { return {name: d.name, value: d.values[d.values.length - 1]}; })
-      .attr("transform", function(d) { return "translate(" + x(d.value.date) + "," + y(d.value.temperature) + ")"; })
-      .attr("x", 3)
-      .attr("dy", ".35em")
-      .text(function(d) { return d.name; });
-});
+	  city.append("text")
+	      .datum(function(d) { return {name: d.name, value: d.values[d.values.length - 1]}; })
+	      .attr("transform", function(d) { return "translate(" + x(d.value.date) + "," + y(d.value.temperature) + ")"; })
+	      .attr("x", 3)
+	      .attr("dy", ".35em")
+	      .text(function(d) { return d.name; });
+	});
 
-</script>
+	</script>
 
 The tools I used were... See analysis files at (links to analysis files).
 
