@@ -14,9 +14,9 @@ This set-up is being created in collaboration with Dan-Eric Nilsson (Vision Grou
 
 ![Figure 1] (https://github.com/AlbertoValero/neptune_final_project/blob/master/Poster%20sep2015.jpg)
 
-_**Figure 1.** A custom made behavioural set-up created in the Vision Group (Lund University; Sweden)_
+_**Figure 1.** A custom made behavioural set-up created in the Vision Group (Lund University, Sweden)_
 
-Once I am able to convert my data into a .tsv file I will create a Multi-Series Line Chart extracted from bl.ocks.org. Further, I will benefit of markdown to format my text file and include images and references. If time permits, I will try to add the spectral properties that I measure of each of the LEDs associated to this system. In the future, the movements of the larvae will be plotted in a dinamic time-lapse sequence like the one that you can find in: https://fbe94b5b83362330a8429bb16098a3285147bcbf.googledrive.com/host/0Bz6WHrWac3FrZUtuOExWdlRGVG8/sportskills.html.
+Once I am able to convert my data into a .tsv file I will create a Multi-Series Line Chart extracted from bl.ocks.org. Further, I will benefit of markdown to format my text file and include images and references. If time permits, I will try to add the spectral properties that I measure of each of the LEDs associated to this system. In the future, the movements of the larvae will be plotted in a dinamic time-lapse sequence like the one that you can find here: https://fbe94b5b83362330a8429bb16098a3285147bcbf.googledrive.com/host/0Bz6WHrWac3FrZUtuOExWdlRGVG8/sportskills.html.
 
 ## Classes of Photoreceptive Sensory Tasks
 
@@ -167,13 +167,13 @@ This is the native code used for generating Fig. 3
 
 	</script>
 
-The tools I used were... See analysis files at (links to analysis files).
+Some modifications of this code were done in order to adjust the figure visualization to the data. The data presented are not real, but the real ones are in the same format of the exposed ones and ready to be used.
 
 ## Results
 
 ![Figure 3] (Screen%20Shot%202016-06-09%20at%2012.37.33.png)
 
-In Figure 1 you can compare the occurence of these zooplanktonic larvae during time.
+_**Figure 2.** Occurence of echinopluteus, tornaria and auricularia, three zooplanktonic larvae, during time._
 
 ## Discussion
 
