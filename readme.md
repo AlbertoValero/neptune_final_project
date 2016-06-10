@@ -16,7 +16,7 @@ This set-up is being created in collaboration with Dan-Eric Nilsson (Vision Grou
 
 Once I am able to convert my data into a .tsv file I will create a Multi-Series Line Chart extracted from bl.ocks.org. Further, I will benefit of markdown to format my text file and include images and references. If time permits, I will try to add the spectral properties that I measure of each of the LEDs associated to this system. In the future, the movements of the larvae will be plotted in a dinamic time-lapse sequence like the one that you can find in: https://fbe94b5b83362330a8429bb16098a3285147bcbf.googledrive.com/host/0Bz6WHrWac3FrZUtuOExWdlRGVG8/sportskills.html.
 
-## Photoreception classes
+## Classes of Photoreceptive Sensory Tasks
 
 While the vast majority of studies had been focus on directional photoreceptors – systems comprising at least one cell with a photosensitive opsin and shading pigments that enable it to discriminate light directionality – less is known about non-directional photoreception, which is considered the earliest evolving type of photoreception. 
 
@@ -24,7 +24,7 @@ Non-directional photoreceptors, which can be difficult to detect without molecul
 
 ![Figure 2] (https://github.com/AlbertoValero/neptune_final_project/blob/master/Screen%20Shot%202016-03-03%20at%2017.23.09.png)
 
-Figure 1. Different photoreception classes defined by Nilsson (2009) and visual task associated with each of them.
+**Figure 1.* Different photoreception classes defined by Nilsson (2009) and visual task associated with each of them.*
 
 ## Importance of Marine Zooplankton for understanding the Origin of Vision
 
