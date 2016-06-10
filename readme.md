@@ -167,7 +167,7 @@ This is the native code used for generating Fig. 3
 
 	</script>
 
-Some modifications of this code were done in order to adjust the figure visualization to the data. The data presented are not real, but the real ones are in the same format of the exposed ones and ready to be used.
+Some modifications of this code were done in order to adjust the figure visualization to the data. The data presented are not real, but the real ones are in the same format of the exposed ones and ready to be used. The data employed for doing this graph is included in my Neptune_final_project repository.
 
 ## Results
 
