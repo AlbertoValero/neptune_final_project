@@ -1,18 +1,18 @@
-<div class="align-justify">Justify text</div>
-
-# Neptune Computational Biology - Final Project
-
 # Diel-Vertical Migration in Marine Zooplankton
 
-Non-directional photoreceptors are the evolutionary precursors of all animal eyes; they enable the monitoring of ambient light intensity and regulate feeding, movement and reproduction. While the first animals were most likely benthic, they evolved larval stages very early on, thus conquering a new ecological niche: the pelagic. In this realm, the evolutionary pressure to prey but not be preyed upon became stronger. This implied strong selection for better sensory systems, including photoreception. How were the photoreceptor systems of the earliest primary larvae arranged? Did this system mediate vertical migration, the largest movement of biomass on Earth? To try to answer these questions, we chose the zooplanktonic larva of three ambulacrarian species: the sea urchin *Strongylocentrotus purpuratus*, the starfish *Luidia sarsi*, and the hemichordate Schizocardium spp., as a model. A comprehensive array of techniques was applied, covering levels of organization from genes to behaviour. Opsin-positive cells were characterized in terms of molecular fingerprint and morphology. A custom-built behavioural set-up is used to investigate the vertical migration of these larvae under different light conditions. Based on our findings, a novel mechanistic model for understanding simple photodetection will be proposed.
+Non-directional photoreceptors are the evolutionary precursors of all animal eyes; they enable the monitoring of ambient light intensity and regulate feeding, movement and reproduction. While the first animals were most likely benthic, they evolved larval stages very early on, thus conquering a new ecological niche: the pelagic. In this realm, the evolutionary pressure to prey but not be preyed upon became stronger. This implied strong selection for better sensory systems, including photoreception.
+
+How were the photoreceptor systems of the earliest primary larvae arranged? Did this system mediate vertical migration, the largest movement of biomass on Earth? To try to answer these questions, we chose the zooplanktonic larva of three ambulacrarian species: the sea urchin *Strongylocentrotus purpuratus*, the starfish *Luidia sarsi*, and the hemichordate Schizocardium spp., as a model. A comprehensive array of techniques was applied, covering levels of organization from genes to behaviour. Opsin-positive cells of *S. purpuratus* were characterized in terms of molecular fingerprint and morphology. A custom-built behavioural set-up is used to investigate the vertical migration of these larvae under different light conditions. Based on our findings, a novel mechanistic model for understanding simple photodetection will be proposed.
 
 ## Introduction
 
 The main goal of this project is to apply the contents explored during this MAMED course held at Villefranche-sur-Mer. 
 
-More in concrete, I will try to adapt some JavaScripts previously develop in D3js.org for tracing three different marine zooplaktonic larvae (echinopluteus, tornaria and auricularia) in a diel-vertical migration custom-built set-up. 
+More in concrete, I will try to adapt a JavaScripts visualization program previously develop in D3js.org for tracing the populational movements of three marine zooplaktonic larvae (echinopluteus, tornaria and auricularia) in a diel-vertical migration custom-built set-up. 
 
 This set-up is being created in collaboration with Dan-Eric Nilsson (Vision Group, Lund University), and allows to analize the movements of a population of marine invertebrate larvae located in a 400X10X10mm water column during time. For this first assay, the light coming from the surface will be UV. The light cycle will be 12/12h (UV/Dark conditions) and changes in light intensity will be done by means of a gaussian function. Future hardware implementations will allow to change the different light conditions available in the set-up.
+
+![Figure 2] https://github.com/AlbertoValero/neptune_final_project/blob/master/Poster%20sep2015.jpg
 
 Once I am able to convert my data into a .tsv file I will create a Multi-Series Line Chart extracted from bl.ocks.org. Further, I will benefit of markdown to format my text file and include images and references. If time permits, I will try to add the spectral properties that I measure of each of the LEDs associated to this system. In the future, the movements of the larvae will be plotted in a dinamic time-lapse sequence like the one that you can find in: https://fbe94b5b83362330a8429bb16098a3285147bcbf.googledrive.com/host/0Bz6WHrWac3FrZUtuOExWdlRGVG8/sportskills.html.
 
@@ -22,9 +22,9 @@ While the vast majority of studies had been focus on directional photoreceptors 
 
 Non-directional photoreceptors, which can be difficult to detect without molecular tools, allow to monitor the ambient light intensity. They are widely used as an input to the circadian clock system and also for a wide variety of other tasks. For instance, non-directional photoreceptors can be used for detecting shadows or harmful levels of UV radiation or be involved in the regulation of feeding, movement and reproduction rhythms (Bennett, 1979; Paul and Gwynn-Jones, 2003; Leech et al., 2005; Nilsson, 2009; 2013).
 
-![Figure 1] (https://github.com/AlbertoValero/neptune_final_project/blob/master/Screen%20Shot%202016-03-03%20at%2017.23.09.png)
+![Figure 2] (https://github.com/AlbertoValero/neptune_final_project/blob/master/Screen%20Shot%202016-03-03%20at%2017.23.09.png)
 
-In Figure 1 you can see the different photoreception classes defined by Nilsson (2009) as well as the visual task associated with them.
+Figure 1. Different photoreception classes defined by Nilsson (2009) and visual task associated with each of them.
 
 ## Importance of Marine Zooplankton for understanding the Origin of Vision
 
@@ -41,7 +41,7 @@ Every day, zooplankton make their way to deep water and rise. This process, know
 
 ## Material and Methods
 
-This is the native code used for the Fig. 3
+This is the native code used for generating Fig. 3
 
 	index.html#
 
