@@ -24,7 +24,7 @@ Non-directional photoreceptors, which can be difficult to detect without molecul
 
 ![Figure 2] (https://github.com/AlbertoValero/neptune_final_project/blob/master/Screen%20Shot%202016-03-03%20at%2017.23.09.png)
 
-*––Figure 1.–– Different photoreception classes defined by Nilsson (2009) and visual task associated with each of them.*
+***Figure 1.** Different photoreception classes defined by Nilsson (2009) and visual task associated with each of them.*
 
 ## Importance of Marine Zooplankton for understanding the Origin of Vision
 
