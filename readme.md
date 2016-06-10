@@ -12,7 +12,7 @@ More in concrete, I will try to adapt a JavaScripts visualization program previo
 
 This set-up is being created in collaboration with Dan-Eric Nilsson (Vision Group, Lund University), and allows to analize the movements of a population of marine invertebrate larvae located in a 400X10X10mm water column during time. For this first assay, the light coming from the surface will be UV. The light cycle will be 12/12h (UV/Dark conditions) and changes in light intensity will be done by means of a gaussian function. Future hardware implementations will allow to change the different light conditions available in the set-up.
 
-![Figure 2] https://github.com/AlbertoValero/neptune_final_project/blob/master/Poster%20sep2015.jpg
+![Figure 2] (https://github.com/AlbertoValero/neptune_final_project/blob/master/Poster%20sep2015.jpg)
 
 Once I am able to convert my data into a .tsv file I will create a Multi-Series Line Chart extracted from bl.ocks.org. Further, I will benefit of markdown to format my text file and include images and references. If time permits, I will try to add the spectral properties that I measure of each of the LEDs associated to this system. In the future, the movements of the larvae will be plotted in a dinamic time-lapse sequence like the one that you can find in: https://fbe94b5b83362330a8429bb16098a3285147bcbf.googledrive.com/host/0Bz6WHrWac3FrZUtuOExWdlRGVG8/sportskills.html.
 
