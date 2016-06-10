@@ -4,7 +4,7 @@ Non-directional photoreceptors are the evolutionary precursors of all animal eye
 
 How were the photoreceptor systems of the earliest primary larvae arranged? Did this system mediate vertical migration, the largest movement of biomass on Earth? To try to answer these questions, we chose the zooplanktonic larva of three ambulacrarian species: the sea urchin *Strongylocentrotus purpuratus*, the starfish *Luidia sarsi*, and the hemichordate Schizocardium spp., as a model. A comprehensive array of techniques was applied, covering levels of organization from genes to behaviour. Opsin-positive cells of *S. purpuratus* were characterized in terms of molecular fingerprint and morphology. A custom-built behavioural set-up is used to investigate the vertical migration of these larvae under different light conditions. Based on our findings, a novel mechanistic model for understanding simple photodetection will be proposed.
 
-## Introduction
+## Aims and presentation of the custom-built set-up
 
 The main goal of this project is to apply the contents explored during this MAMED course held at Villefranche-sur-Mer. 
 
@@ -24,7 +24,7 @@ Non-directional photoreceptors, which can be difficult to detect without molecul
 
 ![Figure 2] (https://github.com/AlbertoValero/neptune_final_project/blob/master/Screen%20Shot%202016-03-03%20at%2017.23.09.png)
 
-**Figure 1.* Different photoreception classes defined by Nilsson (2009) and visual task associated with each of them.*
+*––Figure 1.–– Different photoreception classes defined by Nilsson (2009) and visual task associated with each of them.*
 
 ## Importance of Marine Zooplankton for understanding the Origin of Vision
 
